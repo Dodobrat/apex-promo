@@ -4,10 +4,104 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Apex Community</title>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;600;800&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/0782d985f5.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="css/app.css">
 </head>
 <body>
-    lol
-    <script src="js/app.js"></script>
+    <nav class="navbar">
+        <div class="container">
+            <div class="navbar__brand">
+                <img src="assets/img/apex-full-logo-black.png" class="navbar__brand__img" alt="Logo">
+            </div>
+            <ul class="navbar__links">
+                <li class="navbar__links__item">
+                    <div>Login</div>
+                </li>
+                <li class="navbar__links__item">
+                    <div>Register</div>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <main class="content">
+        <section id="hero" class="hero">
+            <img src="assets/img/banner-cut.jpg" class="hero__img" alt="Banner">
+            <div class="container">
+                <div class="hero__title">
+                    <h1>Who are we?</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Beatae iste repellat doloremque architecto error dolorem eveniet temporibus dolorum dolor. Minima?</p>
+                </div>
+            </div>
+        </section>
+        <section id="services" class="services">
+            <div class="container">
+                <h1 class="services__title">Services</h1>
+                <div class="services__container">
+                    <div class="card services__item">
+                        <div class="services__item__icon">
+                            <i class="fas fa-headset"></i>
+                        </div>
+                        <div class="services__item__title">
+                            Support
+                        </div>
+                        <div class="services__item__desc">
+                            Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                        </div>
+                    </div>
+                    <div class="card services__item">
+                        <div class="services__item__icon">
+                            <i class="far fa-comments"></i>
+                        </div>
+                        <div class="services__item__title">
+                            Messaging
+                        </div>
+                        <div class="services__item__desc">
+                            Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                        </div>
+                    </div>
+                    <div class="card services__item">
+                        <div class="services__item__icon">
+                            <i class="fas fa-user-secret"></i>
+                        </div>
+                        <div class="services__item__title">
+                            Security
+                        </div>
+                        <div class="services__item__desc">
+                            Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                        </div>
+                    </div>
+                    <div class="card services__item">
+                        <div class="services__item__icon">
+                            <i class="fas fa-code-branch"></i>
+                        </div>
+                        <div class="services__item__title">
+                            Connection
+                        </div>
+                        <div class="services__item__desc">
+                            Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <div class="container">
+            <div class="section__separator">
+                <img src="assets/img/apex-full-logo-white.png" alt="separator">
+            </div>
+        </div>
+        <section id="register" class="register">
+            <div class="container">
+                <h1 class="register__title">Why Register</h1>
+
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="container">
+            <span>Apex Legends Community &copy; <span id="copyright-year"></span></span>
+        </div>
+    </footer>
+    <script defer src="js/app.js"></script>
 </body>
 </html>
