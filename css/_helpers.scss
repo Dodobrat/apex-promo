@@ -5,3 +5,10 @@
     margin: 0 auto;
     position: relative;
 }
+
+.only-mobile{
+    display: none;
+    @media(max-width: 900px){
+        display: unset;
+    }
+}

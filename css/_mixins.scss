@@ -4,6 +4,10 @@
     cursor: pointer;
     border-radius: 0.3125rem;
     font-size: 1rem;
+    .navbar__links__item__text{
+        text-decoration: none;
+        color: $color;
+    }
     *, &::before{
         transition: all 0.25s cubic-bezier(0.68, -0.6, 0.32, 1.6);   
     }
@@ -20,11 +24,25 @@
             transition: all 0.25s cubic-bezier(0.68, -0.6, 0.32, 1.6);   
             width: 100%;
         }
-        div{
+        .navbar__links__item__text{
             transition: all 0.25s cubic-bezier(0.68, -0.6, 0.32, 1.6);   
             transform: translateY(-0.25rem);
         } 
     }
+    &:focus{
+        outline: none;
+        box-shadow: 0 0 0.25rem 0.125rem rgba(0,0,0,0.1);
+    }
+}
+
+@mixin button {
+    position: relative;
+    border: none;
+    cursor: pointer;
+    border-radius: 0.3125rem;
+    font-size: 1rem;
+    padding: 0.25rem 0.5rem;
+    background: transparent;
     &:focus{
         outline: none;
         box-shadow: 0 0 0.25rem 0.125rem rgba(0,0,0,0.1);

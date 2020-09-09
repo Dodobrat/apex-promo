@@ -14,19 +14,27 @@
             <div class="navbar__brand">
                 <img src="assets/img/apex-full-logo-black.png" class="navbar__brand__img" alt="Logo">
             </div>
+            <div class="navbar__mobile">
+                <button class="navbar__mobile__toggle">
+                    <div class="line"></div>
+                    <div class="line"></div>
+                    <div class="circle"></div>
+                </button>
+            </div>
             <ul class="navbar__links">
                 <li class="navbar__links__item">
-                    <div>Login</div>
+                    <!-- Ako e link ne se povdiga teksta pri hover (ne raboti za textove) -->
+                    <a href="https://google.com" class="navbar__links__item__text">Login</a>
                 </li>
                 <li class="navbar__links__item">
-                    <div>Register</div>
+                    <div class="navbar__links__item__text">Register</div>
                 </li>
             </ul>
         </div>
     </nav>
     <main class="content">
         <section id="hero" class="hero">
-            <img src="assets/img/banner-cut.jpg" class="hero__img" alt="Banner">
+            <img src="assets/img/banner-cut-transparent.png" class="hero__img" alt="Banner">
             <div class="container">
                 <div class="hero__title">
                     <h1>Who are we?</h1>
@@ -34,9 +42,15 @@
                 </div>
             </div>
         </section>
+        <div class="container only-mobile">
+            <div class="section__separator">
+                <img src="assets/img/apex-full-logo-white.png" alt="separator">
+            </div>
+        </div>
         <section id="services" class="services">
             <div class="container">
                 <h1 class="services__title">Services</h1>
+                <p class="services__desc">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maiores magni ratione tenetur eum minima voluptates exercitationem blanditiis aperiam beatae ad?</p>
                 <div class="services__container">
                     <div class="card services__item">
                         <div class="services__item__icon">
