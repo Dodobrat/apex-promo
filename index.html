@@ -1,153 +1,145 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Apex Community</title>
-    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;600;800&display=swap" rel="stylesheet">
-    <script src="https://kit.fontawesome.com/0782d985f5.js" crossorigin="anonymous"></script>
-    <link rel="apple-touch-icon" sizes="180x180" href="assets/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon-16x16.png">
-    <link rel="stylesheet" href="css/app.css">
-</head>
-<body>
-    <nav class="navbar">
-        <div class="container">
-            <div class="navbar__brand">
-                <img src="assets/img/apex-full-logo-black.png" class="navbar__brand__img" alt="Logo" loading="lazy">
-            </div>
-            <div class="navbar__mobile">
-                <button class="navbar__mobile__toggle">
-                    <div class="line"></div>
-                    <div class="line"></div>
-                    <div class="circle"></div>
-                </button>
-            </div>
-            <ul class="navbar__links">
-                <li class="navbar__links__item">
-                    <!-- Ako e link ne se povdiga teksta pri hover (ne raboti za textove) -->
-                    <a href="https://google.com" class="navbar__links__item__text">Login</a>
-                </li>
-                <li class="navbar__links__item">
-                    <div class="navbar__links__item__text">Register</div>
-                </li>
-            </ul>
-        </div>
-    </nav>
-    <main class="content">
-        <section id="hero" class="hero">
-            <img src="assets/img/banner-cut-transparent.png" class="hero__img" alt="Banner" loading="lazy">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Apex Community</title>
+        <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;600;800&display=swap" rel="stylesheet" />
+        <script src="https://kit.fontawesome.com/0782d985f5.js" crossorigin="anonymous"></script>
+        <link rel="apple-touch-icon" sizes="180x180" href="assets/apple-touch-icon.png" />
+        <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32x32.png" />
+        <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon-16x16.png" />
+        <link rel="stylesheet" href="css/app.min.css" />
+    </head>
+    <body>
+        <nav class="navbar">
             <div class="container">
-                <div class="hero__title">
-                    <h1>Who are we?</h1>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Beatae iste repellat doloremque architecto error dolorem eveniet temporibus dolorum dolor. Minima?</p>
+                <div class="navbar__brand">
+                    <a href="index.html">
+                        <img src="assets/img/apex-full-logo-black.png" class="navbar__brand__img" alt="Logo" loading="lazy" />
+                    </a>
+                </div>
+                <div class="navbar__mobile">
+                    <button class="navbar__mobile__toggle">
+                        <div class="line"></div>
+                        <div class="line"></div>
+                        <div class="circle"></div>
+                    </button>
+                </div>
+                <ul class="navbar__links">
+                    <li class="navbar__links__item">
+                        <a href="login.html" class="navbar__links__item__text">Login</a>
+                    </li>
+                    <li class="navbar__links__item">
+                        <a href="register.html" class="navbar__links__item__text">Register</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <main class="content">
+            <section id="hero" class="hero">
+                <img src="assets/img/banner-cut-transparent.png" class="hero__img" alt="Banner" loading="lazy" />
+                <div class="container">
+                    <div class="hero__title">
+                        <h1>Who are we?</h1>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Beatae iste repellat doloremque architecto error
+                            dolorem eveniet temporibus dolorum dolor. Minima?
+                        </p>
+                    </div>
+                </div>
+            </section>
+            <div class="container only-mobile">
+                <div class="section__separator">
+                    <img src="assets/img/apex-full-logo-white.png" alt="separator" loading="lazy" />
                 </div>
             </div>
-        </section>
-        <div class="container only-mobile">
-            <div class="section__separator">
-                <img src="assets/img/apex-full-logo-white.png" alt="separator" loading="lazy">
-            </div>
-        </div>
-        <section id="services" class="services">
-            <div class="container">
-                <h1 class="services__title">Services</h1>
-                <p class="services__desc">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maiores magni ratione tenetur eum minima voluptates exercitationem blanditiis aperiam beatae ad?</p>
-                <div class="services__container">
-                    <div class="card services__item">
-                        <div class="services__item__icon">
-                            <i class="fas fa-headset"></i>
+            <section id="services" class="services">
+                <div class="container">
+                    <h1 class="services__title">Services</h1>
+                    <p class="services__desc">
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maiores magni ratione tenetur eum minima voluptates
+                        exercitationem blanditiis aperiam beatae ad?
+                    </p>
+                    <div class="services__container">
+                        <div class="card services__item">
+                            <div class="services__item__icon">
+                                <i class="fas fa-headset"></i>
+                            </div>
+                            <div class="services__item__title">Support</div>
+                            <div class="services__item__desc">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</div>
                         </div>
-                        <div class="services__item__title">
-                            Support
+                        <div class="card services__item">
+                            <div class="services__item__icon">
+                                <i class="far fa-comments"></i>
+                            </div>
+                            <div class="services__item__title">Messaging</div>
+                            <div class="services__item__desc">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</div>
                         </div>
-                        <div class="services__item__desc">
-                            Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                        <div class="card services__item">
+                            <div class="services__item__icon">
+                                <i class="fas fa-user-secret"></i>
+                            </div>
+                            <div class="services__item__title">Security</div>
+                            <div class="services__item__desc">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</div>
                         </div>
-                    </div>
-                    <div class="card services__item">
-                        <div class="services__item__icon">
-                            <i class="far fa-comments"></i>
-                        </div>
-                        <div class="services__item__title">
-                            Messaging
-                        </div>
-                        <div class="services__item__desc">
-                            Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                        </div>
-                    </div>
-                    <div class="card services__item">
-                        <div class="services__item__icon">
-                            <i class="fas fa-user-secret"></i>
-                        </div>
-                        <div class="services__item__title">
-                            Security
-                        </div>
-                        <div class="services__item__desc">
-                            Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                        </div>
-                    </div>
-                    <div class="card services__item">
-                        <div class="services__item__icon">
-                            <i class="fas fa-code-branch"></i>
-                        </div>
-                        <div class="services__item__title">
-                            Connection
-                        </div>
-                        <div class="services__item__desc">
-                            Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                        <div class="card services__item">
+                            <div class="services__item__icon">
+                                <i class="fas fa-code-branch"></i>
+                            </div>
+                            <div class="services__item__title">Connection</div>
+                            <div class="services__item__desc">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</div>
                         </div>
                     </div>
                 </div>
-            </div>
-        </section>
-        <div class="container">
-            <div class="section__separator">
-                <img src="assets/img/apex-full-logo-white.png" alt="separator" loading="lazy">
-            </div>
-        </div>
-        <section id="register" class="register">
+            </section>
             <div class="container">
-                <div class="register__content">
-                    <div class="register__content__info">
-                        <h1 class="register__content__info__title">Why Register</h1>
-                        <p class="register__content__info__desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda ullam consequuntur odio molestiae. Saepe provident iure pariatur cupiditate. Nobis temporibus quis dicta repellendus omnis sequi laboriosam perspiciatis rerum, aspernatur mollitia laborum sed quisquam expedita, aliquam repudiandae, cupiditate voluptas officia placeat.</p>
-                    </div>
-                    <div class="register__content__options">
-                        <div class="register__content__options__item">
-                            <div class="register__content__options__item__label">
-                                Login
-                            </div>
-                            <img src="assets/img/char-1-transparent.png" alt="Login">
-                        </div>
-                        <div class="register__content__options__item">
-                            <div class="register__content__options__item__label">
-                                Register
-                            </div>
-                            <img src="assets/img/char-2-transpatent.png" alt="Register">
-                        </div>
-                    </div>
-                </div>                
+                <div class="section__separator">
+                    <img src="assets/img/apex-full-logo-white.png" alt="separator" loading="lazy" />
+                </div>
             </div>
-        </section>
-    </main>
-    <footer>
-        <div class="container">
-            <span class="copyright">Apex Legends Community &copy; <span id="copyright-year"></span></span>
-            <span class="social">
-                <a href="https://github.com/dodobrat" target="_blank" rel="noopener noreferrer">
-                    <i class="fab fa-github"></i>
-                </a>
-                <a href="https://www.instagram.com/deyanbozhilov/?hl=en" target="_blank" rel="noopener noreferrer">
-                    <i class="fab fa-instagram"></i>
-                </a>
-            </span>
-        </div>
-    </footer>
-    <button class="back-to-top">
-        <i class="fas fa-chevron-up"></i>
-    </button>
-    <script defer src="js/app.js"></script>
-</body>
+            <section id="register" class="register">
+                <div class="container">
+                    <div class="register__content">
+                        <div class="register__content__info">
+                            <h1 class="register__content__info__title">Why Register</h1>
+                            <p class="register__content__info__desc">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda ullam consequuntur odio molestiae. Saepe
+                                provident iure pariatur cupiditate. Nobis temporibus quis dicta repellendus omnis sequi laboriosam
+                                perspiciatis rerum, aspernatur mollitia laborum sed quisquam expedita, aliquam repudiandae, cupiditate
+                                voluptas officia placeat.
+                            </p>
+                        </div>
+                        <div class="register__content__options">
+                            <a href="login.html" class="register__content__options__item">
+                                <div class="register__content__options__item__label">Login</div>
+                                <img src="assets/img/char-1-transparent.png" alt="Login" />
+                            </a>
+                            <a href="register.html" class="register__content__options__item">
+                                <div class="register__content__options__item__label">Register</div>
+                                <img src="assets/img/char-2-transpatent.png" alt="Register" />
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer>
+            <div class="container">
+                <span class="copyright">Apex Legends Community &copy; <span id="copyright-year"></span></span>
+                <span class="social">
+                    <a href="https://github.com/dodobrat" target="_blank" rel="noopener noreferrer">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a href="https://www.instagram.com/deyanbozhilov/?hl=en" target="_blank" rel="noopener noreferrer">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                </span>
+            </div>
+        </footer>
+        <button class="back-to-top">
+            <i class="fas fa-chevron-up"></i>
+        </button>
+        <script defer src="js/app.js"></script>
+    </body>
 </html>

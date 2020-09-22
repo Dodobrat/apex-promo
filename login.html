@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Apex Community | Login</title>
+        <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;600;800&display=swap" rel="stylesheet" />
+        <script src="https://kit.fontawesome.com/0782d985f5.js" crossorigin="anonymous"></script>
+        <link rel="apple-touch-icon" sizes="180x180" href="assets/apple-touch-icon.png" />
+        <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32x32.png" />
+        <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon-16x16.png" />
+        <link rel="stylesheet" href="css/app.min.css" />
+    </head>
+    <body>
+        <nav class="navbar">
+            <div class="container">
+                <div class="navbar__brand">
+                    <a href="index.html">
+                        <img src="assets/img/apex-full-logo-black.png" class="navbar__brand__img" alt="Logo" loading="lazy" />
+                    </a>
+                </div>
+                <div class="navbar__mobile">
+                    <button class="navbar__mobile__toggle">
+                        <div class="line"></div>
+                        <div class="line"></div>
+                        <div class="circle"></div>
+                    </button>
+                </div>
+                <ul class="navbar__links">
+                    <li class="navbar__links__item">
+                        <a href="login.html" class="navbar__links__item__text">Login</a>
+                    </li>
+                    <li class="navbar__links__item">
+                        <a href="register.html" class="navbar__links__item__text">Register</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <main class="content">
+            <section class="auth">
+                <form action="/login/manqk" method="POST" class="form">
+                    <h2 class="form__title">LOGIN</h2>
+                    <!-- ZA ERRORI -->
+                    <div class="form__error"><i class="fas fa-exclamation-triangle"></i>sadasd</div>
+                    <div class="form__group">
+                        <label class="form__group__label">Username</label>
+                        <input type="text" class="form__group__input" required />
+                    </div>
+                    <div class="form__group">
+                        <label class="form__group__label">Password</label>
+                        <input type="password" class="form__group__input" required />
+                    </div>
+                    <div class="form__footer">
+                        <input type="submit" class="form__footer__input form__footer__input--submit" />
+                    </div>
+                </form>
+            </section>
+        </main>
+        <footer>
+            <div class="container">
+                <span class="copyright">Apex Legends Community &copy; <span id="copyright-year"></span></span>
+                <span class="social">
+                    <a href="https://github.com/dodobrat" target="_blank" rel="noopener noreferrer">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a href="https://www.instagram.com/deyanbozhilov/?hl=en" target="_blank" rel="noopener noreferrer">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                </span>
+            </div>
+        </footer>
+        <button class="back-to-top">
+            <i class="fas fa-chevron-up"></i>
+        </button>
+        <script defer src="js/app.js"></script>
+    </body>
+</html>
